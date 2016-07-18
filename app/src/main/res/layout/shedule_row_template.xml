@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/idFilmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:layout_weight="2"
+        android:textColor="@color/colorFontAndIcon"
+        android:maxLines="2"
+        android:text="10:00"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idKinoteatrName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape_middle"
+        android:maxLines="2"
+        android:textColor="@color/colorFontAndIcon"
+        android:text="Название кинотеатра"
+        android:gravity="center|center_vertical"
+        android:textSize="12sp"
+        android:layout_weight="7"/>
+
+    <TextView
+        android:id="@+id/idFilmPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape"
+        android:maxLines="2"
+        android:textColor="@color/colorFontAndIcon"
+        android:text="35-60 грн"
+        android:gravity="left|center_vertical"
+        android:paddingRight="2dp"
+        android:textSize="12sp"
+        android:layout_weight="1"/>
+
+</TableRow>

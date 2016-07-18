@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idPlaceDetailParent"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFontWhite"
+    android:orientation="vertical">
+
+        <!-- Картинка -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <info.ukrtech.delphi.kievafisha.Shared.ResizableImageView
+            android:id="@+id/idPlaceLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/idPlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название "
+            style="@style/TextViewListsTitle"/>
+
+        <TextView
+            android:id="@+id/idPlaceAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address, phone... "
+            style="@style/TextViewListsText"/>
+
+        <LinearLayout
+            android:id="@+id/idShowInMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:drawableLeft="@drawable/ic_action_room_green"
+                android:text="Показать на карте"
+                style="@style/TextViewListsTitle"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/idMapLayout"
+        android:visibility="gone">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/idPlaceMap"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

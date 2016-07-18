@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@color/colorBackground"
+    android:id="@+id/idScrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorBackground"
+         >
+
+        <!-- Картинка -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorBackground"
+            android:orientation="horizontal" >
+
+            <info.ukrtech.delphi.kievafisha.Shared.ResizableImageView
+                android:id="@+id/idFullLogo"
+                android:background="@color/colorBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <!-- Заголовок поста -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <info.ukrtech.delphi.kievafisha.Shared.PatchedTextView
+                android:id="@+id/idFullTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBackground"
+                android:gravity="center_horizontal"
+                android:text="Заголовок сделаем на 3 строки Заголовок сделаем на 3 строки Заголовок сделаем"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorFontAndIcon" />
+        </LinearLayout>
+
+
+        <!-- Трейлер -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idLayoutTrailer"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorBackground"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idShowTrailer"
+                android:drawableLeft="@drawable/ic_action_theaters"
+                android:text="Смотреть трейлер"
+                style="@style/TextViewPlaceMenuTitle"
+                />
+
+
+            <FrameLayout
+                android:id="@+id/youtube_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+
+
+        <!-- Текст поста -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <!-- JellyBeanFixTextView-->
+
+            <info.ukrtech.delphi.kievafisha.Shared.PatchedTextView
+                android:id="@+id/idFullText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBackground"
+                android:text="Содержание новости "
+                android:textSize="16sp"
+                android:layout_marginBottom="50dp"
+                android:textColor="@color/colorFontAndIcon" />
+
+        </LinearLayout>
+
+        <!-- Расписание -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/idFilterKinoteatr"
+                android:background="@color/colorFontAndIcon"
+
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kinoteatr_filtr"
+                    android:id="@+id/idFiltrKinoteatrTitle"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@mipmap/ic_action_action_alarm"/>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idTableSheduleFilms">
+
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

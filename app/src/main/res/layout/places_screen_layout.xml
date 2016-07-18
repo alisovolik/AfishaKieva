@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/idPlaceCinema"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_hardware_desktop_mac"
+                android:layout_weight="1"
+                android:text="Кинотеатры"/>
+
+            <TextView
+                android:id="@+id/idPlaceTheatre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_theatre"
+                android:layout_weight="1"
+                android:text="Театры"/>
+
+            <TextView
+                android:id="@+id/idPlaceHall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_action_account_balance_white"
+                android:layout_weight="1"
+                android:text="Концертные залы"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idPlaceClub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_maps_local_bar"
+                android:text="Ночные клубы"/>
+
+            <TextView
+                android:id="@+id/idPlaceKaraoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_av_mic"
+                android:text="Караоке"/>
+
+            <TextView
+                android:id="@+id/idPlaceMuseum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_image_camera_alt"
+                android:text="Музеи"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idPlaceGallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_action_room"
+                android:text="Галереи"/>
+
+            <TextView
+                android:id="@+id/idPlaceArtCafe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_art_cafe"
+                android:text="Арт-кафе"/>
+
+            <TextView
+                android:id="@+id/idPlaceQuest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_maps_directions_bike"
+                android:text="Квесты"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idPlaceCircus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_zoo"
+                android:layout_weight="1"
+                android:text="Цирк, Дельфинарий, Зоопарк"/>
+
+            <TextView
+                android:id="@+id/idPlaceRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/ic_burger"
+                android:text="Рестораны"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idPlacePub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_beer2"
+                android:text="Пабы"/>
+
+            <TextView
+                android:id="@+id/idPlaceCafe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_bg_cutlery"
+                android:text="Кафе"/>
+
+            <TextView
+                android:id="@+id/idPlaceSushi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_fish"
+                android:text="Суши"/>
+
+            <TextView
+                android:id="@+id/idPlaceCoffe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_coffee_cup_icon"
+                android:text="Кофейни"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlaceMenuLayoutStyle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idPlacePizza"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_pizza_slice"
+                android:text="Пиццерии"/>
+
+            <TextView
+                android:id="@+id/idPlaceIce"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_snowflake"
+                android:text="Катки"/>
+
+            <TextView
+                android:id="@+id/idPlaceSauna"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_sauna2"
+                android:text="Сауны"/>
+
+            <TextView
+                android:id="@+id/idPlaceBani"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TextViewPlaceMenuTitle"
+                android:drawableTop="@drawable/ic_sauna"
+                android:text="Бани"/>
+        </LinearLayout>
+
+</LinearLayout>

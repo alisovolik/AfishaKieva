@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idMainScreenGrid"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorFontWhite"
+    grid:alignmentMode="alignBounds"
+    grid:columnCount="2"
+    grid:rowOrderPreserved="false">
+
+    <LinearLayout
+        android:id="@+id/idFilmsLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_hardware_desktop_mac"
+            android:text="Фильмы"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/idConcertLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill"
+        android:layout_marginRight="0dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_av_mic"
+            android:text="Концерты"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idPerfomanceLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_action_account_balance_white"
+            android:text="Спектакли"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idExhibitionLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill"
+        android:layout_marginRight="0dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_image_palette"
+            android:text="Выставки"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idPartyLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_maps_local_bar"
+            android:text="Вечеринки"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/idSportLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill"
+        android:layout_marginRight="0dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_maps_directions_bike"
+            android:text="Спорт"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idPlacesLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill"
+        android:layout_marginBottom="0dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_action_room"
+            android:text="Места"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idExitLayout"
+        style="@style/MainMenuLayoutStyle"
+        grid:layout_columnWeight="1"
+        grid:layout_rowWeight="1"
+        grid:layout_gravity="fill"
+        android:layout_marginBottom="0dip"
+        android:layout_marginRight="0dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewMainMenuTitle"
+            android:drawableTop="@drawable/ic_image_brightness_3"
+            android:text="Выход"
+            />
+    </LinearLayout>
+
+
+</android.support.v7.widget.GridLayout>

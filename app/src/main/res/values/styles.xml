@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBackground</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewMainMenuTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_menu_big</item>
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextViewPlaceMenuTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextViewListsTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:background">@color/colorFontWhite</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextViewListsText" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:background">@color/colorFontWhite</item>
+        <item name="android:textSize">@dimen/text_size_lists</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+
+    <style name="MainMenuLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="PlaceMenuLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorFontWhite</item>
+    </style>
+
+
+    <style name="MyDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomProgressDialogStyle</item>
+        <item name="android:textColorPrimary">@color/colorFontAndIcon</item>
+    </style>
+
+    <style name="CustomProgressDialogStyle">
+        <item name="android:bottomBright">@color/colorBackground</item>
+        <item name="android:bottomDark">@color/colorBackground</item>
+        <item name="android:bottomMedium">@color/colorBackground</item>
+        <item name="android:centerBright">@color/colorBackground</item>
+        <item name="android:centerDark">@color/colorBackground</item>
+        <item name="android:centerMedium">@color/colorBackground</item>
+        <item name="android:fullBright">@color/colorBackground</item>
+        <item name="android:fullDark">@color/colorBackground</item>
+        <item name="android:topBright">@color/colorBackground</item>
+        <item name="android:topDark">@color/colorBackground</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/colorFontAndIcon</item>
+    </style>
+
+
+
+
+</resources>

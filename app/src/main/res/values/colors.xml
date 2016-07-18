@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#465568</color-->
+    <color name="colorBackground">#043e4d</color>
+    <color name="colorPrimary">#043e4d</color>
+    <color name="colorToast">#d0e8e8</color>
+    <color name="colorAccent">#043e4d</color>
+    <color name="colorFontAndIcon">#ffffff</color>
+    <color name="colorFontAndIconAlpha">#1153407f</color>
+    <color name="colorFontWhite">#ffffff</color>
+    <color name="colorSelectedItem">#8fd8f9</color>
+
+</resources>

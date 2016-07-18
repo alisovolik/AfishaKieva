@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabd="http://schemas.android.com/apk/res-auto" >
+	<item
+        android:id="@+id/mnu_btn_change_date"
+        android:title="Избранное"
+        android:icon="@mipmap/ic_action_action_account_balance"
+        android:orderInCategory="3"
+        sabd:showAsAction="always"
+		/>
+    <item
+     	android:id="@+id/mnu_btn_share"
+	    android:title="Отправить другу"
+	    android:icon="@mipmap/ic_action_social_share"
+		sabd:showAsAction="always"
+		android:orderInCategory="4"
+		/>
+    
+</menu>

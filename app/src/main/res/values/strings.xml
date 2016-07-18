@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Афиша Киева</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_afisha">Афиша</string>
+    <string name="action_places">Места</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_films_list_text">Загрузка данных с сервера...</string>
+    <string name="kinoteatr_filtr">Расписание сеансов</string>
+    <string name="films_list_choice_date">Расписание на сегодня</string>
+    <string name="debug_key_google"> AIzaSyDf9fjZLsjj9icO74JL7owaTwNb3RHS1h4</string>
+</resources>
